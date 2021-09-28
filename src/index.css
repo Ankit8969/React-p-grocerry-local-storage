@@ -1,0 +1,77 @@
+body {
+  background-color: lightseagreen;
+}
+
+.box {
+  width: 390px;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #fefbf3;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.box h1 {
+  text-align: center;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+form input {
+  font-weight: bold;
+  width: 70%;
+  padding: 5px;
+  border-radius: 7px;
+  border: 1px solid;
+  color: #11052c;
+}
+
+form button {
+  box-sizing: border-box;
+  width: 89px;
+  padding: 5px;
+  border: 1px solid red;
+  background: none;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  margin-left: auto;
+}
+button:hover {
+  background-color: #3db2ff;
+  color: white;
+}
+
+/* Styling for items */
+.dummy {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fdf6f0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.btn-group {
+  width: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+i:hover {
+  cursor: pointer;
+}
+
+.fa-edit {
+  color: green;
+}
+.fa-trash-alt {
+  color: red;
+}
